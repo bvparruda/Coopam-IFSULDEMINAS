@@ -1,0 +1,73 @@
+body{
+    background-image: url("../img/predioIF.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: 600;
+}
+
+table{
+  width: 40%; /* Defina uma largura específica */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(180, 171, 171, 0.733);
+  border-radius: 10px;
+  backdrop-filter: blur(7px); /*coloca efeito blur*/
+}
+
+button{
+    width: 90%;
+    background-color: rgba(40, 103, 239, 0.711);
+    color: white;
+    border-radius: 30px; /*borda arredondada*/
+    border-style: none; /*tira efeito de borda*/
+    transition: transform 1s ease; /* Transição suave para o efeito */
+
+}
+
+button:hover{
+    transform: scale(1.1); /*aumenta o tamanho*/
+}
+
+.botao-voltar {
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+
+    margin-left: 520px;
+    margin-top: 20px;
+    max-height: 30px;
+    height: 32px;
+
+    padding: 0 24px;
+
+    background-color: #220598;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    transition: all 0.4s ease;
+}
+
+.botao-voltar:hover {
+    background-color: #28765c;
+    transform: translateY(-2px);
+}
+
+a:visited{
+    color: white;
+}

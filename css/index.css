@@ -1,0 +1,17 @@
+body{
+    background-image: url(../img/if.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.apresentacao{
+    display: flex;
+    background-color: rgba(115, 115, 115, 0.814);
+    justify-content: flex-end; /* Empurra o conteúdo interno totalmente para a direita */
+    margin: 50px 100px 50px  700px; 
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+}

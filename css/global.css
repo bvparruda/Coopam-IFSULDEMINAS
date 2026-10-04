@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Uma folha de CSS com elementos globais, tais quais NavBar, */
+
+
+/* NAV */
+*{
+    margin: 0px;
+    font-family: "Montserrat", 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box; /*garante que tudo tenha*/
+}
+
+
+body{
+    background: #bad5c0;
+    box-sizing: border-box; /*garante que tudo tenha*/
+
+}
+
+.logo img{
+    width: 55px;
+    height: 50px;
+    border-radius: 2%;
+}
+
+.navbar{
+    display: flex; /*Deixa alinhado*/
+    justify-content: space-between; /*coloca um espaço entre os elementos da navbar*/
+    align-items: center; /*alinha verticalmente*/
+    background-color: #d7ddb9;
+    padding: 2px 40px 0px 5px; /*define o padding do conteudo*/
+    border-bottom: 2px solid rgb(197, 194, 194);
+}
+
+.nav-links{
+    display: flex; /*horizontal*/
+    list-style: none; /*tira o estilo da lista*/
+    margin: 0;
+    padding: 0;
+    gap: 50px; /*espaço entre os links*/
+}
+
+.nav-links a{
+    display: inline-block; /* Mantém na horizontal e ativa o efeito do scale */
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none; /*tira o sublinhado*/
+    color: rgb(3, 16, 2);
+    transition: transform 1s ease; /* Transição suave para o efeito */
+}
+
+a:visited { /*se o link foi visitado, ele nn vai mudar de cor pra roxo*/
+    color: #000000; 
+}
+
+.nav-links a:hover{ /*quando o mouse passar por cima*/
+    color: #2C3325;
+    text-decoration: underline; 
+    text-underline-offset: 5px; /*personaliza o underline*/
+    transform: scale(1.2); /*aumenta o tamanho*/
+}
+
