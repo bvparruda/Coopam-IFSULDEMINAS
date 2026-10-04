@@ -20,3 +20,7 @@ This project provides an intuitive website for Coopam. It features dedicated sec
 * **HTML5**
 * **CSS3**
 * **JavaScript**
+
+## Considerations
+As a school project, it must follow the instructor's requirements — for instance, it needs to be a static website. 
+After completing the course requirements, I will continue developing the project independently to add backend functionality and new features.
